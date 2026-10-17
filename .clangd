@@ -1,0 +1,11 @@
+
+Diagnostics:
+  Suppress: [c2y_labeled_break_continue, unused-includes, missing_param]
+
+CompileFlags:
+  Add:
+    - -ffreestanding
+    - -nostdinc
+    - -nostartfiles
+    - -I./include
+  
